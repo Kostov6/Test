@@ -11,7 +11,5 @@ structure:
       nodes:
       - nodesSelector:
           path: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/090-resources
-      - name: 010-videos
-        nodes:
-        - name: docforge
-          source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
+      - name: test
+        source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
