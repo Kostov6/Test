@@ -1,37 +1,17 @@
 structure:
-### /docs/guides
-  - name: guides
-    nodes:
-    - nodesSelector:
-        path: https://github.tools.sap/I544554/documentation/blob/sort-tutorials/website/documentation/015-tutorials
-    ### /docs/guides/networking-lb
-    - name: networking-lb
+### /docs
+- name: docs
+  nodes:
+  - name: _index.md
+    source: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/_index.md
+  ### /docs/resources
+  - name: resources
+    nodes:	
+    - name: what-is-next	
       nodes:
-      - source: https://github.tools.sap/I544554/documentation/blob/sort-tutorials/website/documentation/015-tutorials/networking-lb/index.md
-      - name: service-access
-        properties:
-          frontmatter:
-            title: Access service from outside Kubernetes cluster
-            description: "Is there an ingress deployed and how is it configured"
-            level: beginner
-            index: 150  
-            reviewer: Tieyan Fu
-            status: Reviewed
-            last_reviewed: 07.06.2018
-            publishdate: 2018-06-07
-            category: Services
-            scope: app-developer
-            aliases: [ "doc/2017/01/16/howto-service-access.html" ]
-        source: https://github.com/gardener/documentation/blob/master/website/documentation/guides/applications/service-access/_index.md
-    - name: service-cache-control
-      properties:
-        frontmatter:
-          title: Out-Dated HTML and JS files delivered
-          description: "My Content is always out-dated - why?"
-          level: intermediate
-          index: 10
-          category: Services
-          scope: app-developer
-          publishdate: 2017-01-16
-          aliases: [ "doc/2017/01/16/howto-service-cache-control.html" ]
-      source: https://github.com/gardener/documentation/blob/master/website/documentation/guides/applications/service-cache-control/_index.md
+      - nodesSelector:
+          path: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/090-resources
+      - name: 010-videos
+        nodes:
+        - name: docforge
+          source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
