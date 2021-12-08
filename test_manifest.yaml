@@ -1,0 +1,7 @@
+structure:
+- name: parent
+  nodes:
+  - nodesSelector:
+    path: ./foo_dir
+  - name: chield-source
+    source: ./foo_file.md
