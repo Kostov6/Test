@@ -1,7 +1,17 @@
 structure:
-- nodesSelector:
-    path: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/090-resources
-- name: 010-videos
+### /docs
+- name: docs
   nodes:
-  - name: docforge
-    source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
+  - name: _index.md
+    source: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/_index.md
+  ### /docs/resources
+  - name: resources
+    nodes:	
+    - name: what-is-next	
+      nodes:
+      - nodesSelector:
+          path: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/090-resources
+      - name: 010-videos
+        nodes:
+        - name: docforge
+          source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
