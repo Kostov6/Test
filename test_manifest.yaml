@@ -2,6 +2,6 @@ structure:
 - name: parent
   nodes:
   - nodesSelector:
-    path: ./foo_dir
+      path: https://github.com/Kostov6/Test/blob/master/foo_dir
   - name: chield-source
-    source: ./foo_file.md
+    source: https://github.com/Kostov6/Test/blob/master/foo_file.md
