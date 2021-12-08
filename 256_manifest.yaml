@@ -4,4 +4,4 @@ structure:
 - name: 010-videos
   nodes:
   - name: docforge
-     source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
+    source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
