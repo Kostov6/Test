@@ -1,5 +1,6 @@
 structure:
-- name: guides
+### /docs/guides
+  - name: guides
     nodes:
     - nodesSelector:
         path: https://github.tools.sap/I544554/documentation/blob/sort-tutorials/website/documentation/015-tutorials
