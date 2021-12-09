@@ -15,3 +15,5 @@ structure:
         nodes:
         - name: docforge
           source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
+        - name: envoy-service-mesh.md
+          source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
