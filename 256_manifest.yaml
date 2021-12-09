@@ -16,4 +16,4 @@ structure:
         - name: docforge
           source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
         - name: envoy-service-mesh.md
-          source: https://github.com/gardener/docforge/blob/master/docs/manifests.md
+          source: https://github.tools.sap/kubernetes/documentation/blob/master/website/documentation/_index.md
