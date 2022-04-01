@@ -13,6 +13,8 @@ structure:
 - name: foo
   properties:
     index: true
+  source: https://github.com/Kostov6/Test/blob/master/foo_file.md
 - name: bar
   properties:
     index: true
+  source: https://github.com/Kostov6/Test/blob/master/foo_file.md
