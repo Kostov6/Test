@@ -5,8 +5,11 @@ structure:
   source: https://github.com/Kostov6/Test/blob/master/foo_file.md
 - name: foo_file-.md0
   source: https://github.com/Kostov6/Test/blob/master/foo_filev2.md
-- name: foo_file-.md
+- name: foo_file-.mdfolder
   nodes:
   - source: https://github.com/Kostov6/Test/blob/master/foo_file.md
   - name: $name$ext
     source: https://github.com/Kostov6/Test/blob/master/foo_file.mdx
+- name:
+  properties:
+    index: true
