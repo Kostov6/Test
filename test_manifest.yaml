@@ -9,7 +9,7 @@ structure:
   nodes:
   - source: https://github.com/Kostov6/Test/blob/master/foo_file.md
   - name: $name$ext
-    source: https://github.com/Kostov6/Test/blob/master/foo_file.mdx
+    source: https://github.com/Kostov6/Test/blob/master/foo_file.md
 - name: foo
   properties:
     index: true
